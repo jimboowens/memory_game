@@ -1,5 +1,5 @@
 body{
-
+/* this is for weird stuff I guess */
 }
 img{
     height:639px;
@@ -32,29 +32,4 @@ img{
 
 .card-front{
     transform:rotateY(180deg);
-}
-
-/* #parent{
-    height:200px;
-    width:200px;
-    margin:50px;
-    padding:10px;
-    background-color: #4f5f6c;
-    perspective: 200px
-}
-#parent div{
-    padding: 50px;
-    border: 1px solid #0912ee;
-}
-#threeD{
-    background-color: #0be;
-    transform: rotateX(45deg);
-}
-#threeD2{
-    background-color: aqua;
-    transform: rotateY(45deg);
-}
-#threeD3{
-    background-color: rgb(69, 179, 179);
-    transform: rotateZ(45deg); */
 }
