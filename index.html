@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Memory Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="darkly.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="card-flip.css" />
+    
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center memory-game">
+                <h1>Select Difficulty:</h1>
+                <button diff=4 class="btn btn-lg btn-success">Easy</button>
+                <button diff=12 class="btn btn-lg btn-warning">Medium</button>
+                <button diff=28 class="btn btn-lg btn-danger">Hard</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
