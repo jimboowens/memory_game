@@ -67,7 +67,7 @@ $(document).ready(()=>{
     function shuffleDeck(deckToBeShuffled) {
         // loop. A lot. Like those machines in casinos that 
         // make funny noises.
-        for (let i=0; i<100000; i++){
+        for (let i=0; i<35; i++){
             let rand1 = Math.floor(Math.random()*deckToBeShuffled.length)
             let rand2 = Math.floor(Math.random()*deckToBeShuffled.length)
             // we need to switch deckToBeShuffled[rand1] with deckToBeShuffled[rand2].
